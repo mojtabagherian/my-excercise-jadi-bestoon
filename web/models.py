@@ -18,3 +18,4 @@ class Income(models.Model):
     user = models.ForeignKey(User)
     def __unicode__(self):
         return "{}----{}----{}".format(self.text, self.amount, self.date)
+ 
